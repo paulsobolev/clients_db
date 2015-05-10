@@ -17,6 +17,10 @@
         }
     });
 
+    DBApp.on('before:start', function() {
+        this.root = new DBApp.Layout.Root();
+    });
+
     DBApp.on('start', function() {
         new DBAppRouter();
         Backbone.history.start();
