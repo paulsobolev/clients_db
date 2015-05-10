@@ -23,9 +23,12 @@
             // create collection
             var users = new DBApp.Models.UsersCollection([]);
 
+            // create collection copy for searching
+            var filtered = new DBApp.Models.FilteredCollection(users, searchModel);
+
             // create collection view
             var usersList = new DBApp.Views.UsersCollection({
-                collection: users
+                collection: filtered
             });
 
             // show collection
