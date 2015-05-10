@@ -1,0 +1,26 @@
+{
+    "name": "clients_db",
+    "version": "0.0.1",
+    "authors": [
+        "Paul Sobolev <cloud@paulsobolev.pro>"
+    ],
+    "description": "list of clients with filters",
+    "license": "MIT",
+    "homepage": "http://clients.paulsobolev.pro/",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "jquery": "~2.1.4",
+        "marionette": "~2.4.1",
+        "fontawesome": "~4.3.0",
+        "bootstrap-sass": "~3.3.4"
+    },
+    "resolutions": {
+        "underscore": "~1.8.3"
+    }
+}
